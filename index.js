@@ -21,6 +21,7 @@ function whatHaveIDone(){
 function addZu(){
    console.log('Click!')
    let val = input.value.split('');
+   console.log(val)
    input.value = val.reduce((a,c)=> a + Number(c),0);
    display.textContent = "Summen blir: " + input.value;
 }
