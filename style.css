@@ -1,7 +1,7 @@
 body{
-   margin:0;
-   padding:0;
-   background-image:url(./images/matte.jpg);
+   margin: 0;
+   padding: 0;
+   background-image: url(./images/matte.jpg);
    background-size: 1600px;
    background-repeat: no-repeat;
 }
@@ -11,29 +11,35 @@ body{
 }
 
 #input-el{
-   margin-top:50px;
-   padding:10px 10px;
-   width:260px;
+   margin-top: 50px;
+   padding: 10px 10px;
+   width: 260px;
 }
 
 #submit-btn{
-   margin-left:40px;
-   background:green;
-   color:white;
-   border:none;
-   border-radius:50px;
+   margin-left: 20px;
+   background: green;
+   color: white;
+   border: none;
+   border-radius: 50px;
    padding: 10px 15px;
-   font-weight:bolder;
-   cursor:pointer;
+   font-weight: bolder;
+   cursor: pointer;
 }
 #submit-btn:hover{
    background-color: rgba(255, 255, 255, 0.5);
 }
 
-#display-el{
-   margin-top:40px;
+#numbers{
+   margin:20px;
+   color:white;
    margin-left:-140px;
-   text-decoration: underline;
+}
+
+#display-el{
+   margin-top:20px;
+   margin-left:-140px;
+   text-decoration:underline red;
    color:oldlace;
    letter-spacing: 3px;
    font-weight:bolder;
